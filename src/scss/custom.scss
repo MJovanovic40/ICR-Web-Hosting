@@ -1,1 +1,8 @@
+$primary: #FB3640;
+$btn-primary-color: #fff;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.btn-primary {
+    color: $btn-primary-color;
+  }
