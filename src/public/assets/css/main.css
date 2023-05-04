@@ -18,18 +18,11 @@ html, body {
     margin-top: 82px;
     font-size: 2rem;
     font-weight: 700;
-    position: relative;
 }
 
-.naslov::after {
-    position: absolute;
-    display: block;
-    content: "";
-    width: 159px;
+.naslov-underline {
     height: 9px;
-    background-color: rgba(251, 54, 64, 0.7);
     border-radius: 10px;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    background: rgba(251, 54, 64, 0.7);
+    width: 20%;
 }

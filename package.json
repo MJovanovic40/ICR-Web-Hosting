@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "serve src/public"
+  },
   "dependencies": {
     "bootstrap": "^5.3.0-alpha3"
   }
