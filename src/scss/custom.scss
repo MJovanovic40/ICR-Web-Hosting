@@ -1,8 +1,8 @@
 $primary: #FB3640;
-$btn-primary-color: #fff;
+$secondary: #1F487E;
+//$btn-primary-color: #fff;
+
+//navbar
+$navbar-height: 103px;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
-.btn-primary {
-    color: $btn-primary-color;
-  }

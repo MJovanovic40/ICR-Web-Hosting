@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar-nav {
+    font-size: 1.75rem;
+}
+.navbar-nav li {
+    margin-left: 10px;
+}
+
+/* End navbar*/
+
+.naslov {
+    margin-top: 82px;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.naslov::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 159px;
+    height: 9px;
+    background-color: rgba(251, 54, 64, 0.7);
+    border-radius: 10px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
