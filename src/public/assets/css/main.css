@@ -127,3 +127,87 @@ html, body {
 }
 
 /* End hosting info */
+
+/* Registracija domena */
+
+.register-domain-container {
+    margin-top: 93px;
+    border-radius: 10px;
+    height: 310px;
+}
+
+.register-domain-inner-container {
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+.register-domain-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.domain-input-field {
+    width: 693px;
+    height: 58.24px;
+    background: white;
+    border-radius: 10px;
+}
+
+.domain-input-icon {
+    height: 35px;
+    width: 35px;
+
+    margin-left: 23px;
+    margin-right: 41px;
+}
+#domain-input {
+    height: 100%;
+    border: none;
+}
+input[type="text"]:focus {
+    border-color: transparent;
+  box-shadow: none;
+  outline: 0 none;
+}
+.domain-input-tld {
+    height: 100%;
+    width: 150px;
+    border-left: solid 2px rgba(251, 54, 64, 0.7); 
+
+    font-weight: 700;
+    font-size: 1.188rem;
+}
+
+.domain-input-tld select {
+    height: 100%;
+    width: 100%;
+}
+
+.pretrazi-btn {
+    color: white;
+    font-size: 1.188rem;
+    font-weight: 700;
+    width: 157.5px;
+}
+
+.register-domain-form {
+    gap: 41px;
+}
+
+.register-domain-prices {
+    width: 693px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+
+    gap: 19px;
+    flex-wrap: wrap;
+
+    margin-top: 35px;
+}
+
+
+/* End registracija domena */
