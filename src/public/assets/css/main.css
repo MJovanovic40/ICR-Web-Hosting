@@ -220,7 +220,7 @@ input[type="text"]:focus {
     position: relative;
     top: 68px;
 
-    background: url("/assets/img/contact-us.png");
+    background: url("/assets/img/contact-us.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
