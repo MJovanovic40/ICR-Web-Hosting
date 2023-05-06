@@ -38,6 +38,7 @@ html, body {
 
     filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
     max-width: 279px;
+    min-width: 261px;
 }
 
 .hosting-info-circle {
@@ -121,6 +122,8 @@ html, body {
     translate: -50%;
     top: 41px;
 }
-
+.hosting-info {
+    margin-top: 58px;
+}
 
 /* End hosting info */
