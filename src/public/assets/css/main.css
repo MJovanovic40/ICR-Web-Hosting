@@ -14,6 +14,7 @@ html, body {
 
 /* End navbar*/
 
+/* Naslov */
 .naslov {
     margin-top: 82px;
     font-size: 2rem;
@@ -26,3 +27,100 @@ html, body {
     background: rgba(251, 54, 64, 0.7);
     width: 20%;
 }
+/* End naslov */
+
+/* Hosting info */
+
+.hosting-info-container {
+    position: relative;
+    height: 620px;
+    width: 100%; /* Restricted by the columns */
+
+    filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
+    max-width: 279px;
+}
+
+.hosting-info-circle {
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    translate: -50%;
+    z-index: 1;
+
+    font-weight: 900;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    word-break: break-all;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hosting-info-body {
+    position: absolute;
+    height: 538px;
+    width: 100%;
+    border-radius: 5px;
+    top: 82px;
+}
+
+.hosting-info-body-header {
+    height: 199px;
+    background-color: #1D3461;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+.hosting-info-body-header-text {
+    position: absolute;
+    top: 82px;
+    width: 100%;
+    height: 117px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hosting-info-body-main-row {
+    display: flex;
+    align-items: center;
+    gap: 39.5px;    
+    width: 100%;
+    height: 53px;
+    color: white;
+    font-size: 1.188rem;
+    font-weight: 400;
+    padding-left: 23.5px;
+}
+
+.hosting-info-icon {
+    height: 36px;
+    width: 36px;
+}
+
+.hosting-info-body-main {
+    position: relative;
+}
+
+.btn-saznaj-vise {
+    color: white;
+    font-weight: 600;
+    width: 198px;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    top: 41px;
+}
+
+
+/* End hosting info */
