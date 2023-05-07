@@ -38,7 +38,7 @@ html, body {
 
     filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
     max-width: 279px;
-    min-width: 261px;
+    min-width: 133px;
 }
 
 .hosting-info-circle {
@@ -412,8 +412,270 @@ input[type="email"]:focus {
     color: white;
 }
 
-.copyright {
-    text-align: center;
+
+.footer-content-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.footer-content-mobile .footer-info {
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+
+.footer-content-mobile .footer-logo {
+    width: 175px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer-content-mobile .footer-sitemap {
+    margin-top: 20px;
+    font-size: 0.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+.footer-content-mobile .footer-mail-form {
+    width: 238.5px;
+}
+
+.footer-content-mobile .footer-mail-form label {
+    font-size: 0.5rem;
+    margin-top: 20px;
+}
+
+.footer-content-mobile #footer-mail-input {
+    width: 198px;
+    height: 27.5px;
+
+    font-size: 0.5rem;
+}
+
+.footer-content-mobile .footer-mail-form-input-container {
+    height: 27.5px;
+}
+
+.footer-content-mobile .footer-mail-form-input-container button {
+    width: 40.5px;
+    height: 27.5px;
+
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content-mobile .copyright {
+    font-size: 0.5rem;
+}
+
+.footer-content-mobile .copyright .copyright-icon {
+    height: 12px;
+    width: 12px;
+    margin-top: -12px;
+}
+
+
 /* End footer*/
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 175px;
+        height: auto;
+    }
+
+    .naslov {
+        font-size: 1rem;
+        margin-bottom: 0px;
+        margin-top: 23px;
+    }
+
+    .naslov-underline {
+        width: 80px;
+        height: 5px;
+    }
+
+    .hosting-info-circle {
+        width: 78.5px;
+        height: 78.5px;
+        font-size: 0.563rem;
+    }
+
+    .hosting-info-body {
+        top: 39.25px;
+    }
+
+    .hosting-info-container {
+        width: 133.5px;
+        height: 297px;
+        margin-top: 0px !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hosting-info-body-header {
+        height: 95.33px;
+    }
+    .hosting-info-body-header-text {
+        font-size: 0.75rem;
+        height: 56px;
+        top: 39px;
+    }
+    .hosting-info-body-main-row {
+        font-size: 0.563rem;
+        gap: 19px;
+        height: 25.39px;
+    }
+    .hosting-info-icon {
+        width: 17.25px;
+        height: 17.25px;
+    }
+    .hosting-info-body {
+        height: 257.72px;
+    }
+
+    .btn-saznaj-vise {
+        width: 94.85px;
+        height: 23.47px;
+        font-size: 0.563rem;
+        top: 19.64px;
+        padding-top:3.5px;
+    }
+
+    .register-domain-container {
+        height: 81.34px;
+        border-radius: 5px;
+        margin-top: 32px;
+    }
+
+    .register-domain-title {
+        font-size: 0.75rem;
+        margin-bottom: 0px;
+    }
+
+    .domain-input-tld {
+        height: 15.28px;
+    }
+
+    .register-domain-form {
+        width: 233px;
+        gap: 5px;
+    }
+    .domain-input-field {
+        height: 15.28px;
+        border-radius: 5px;
+    }
+    .domain-input-icon {
+        margin-right: 3px;
+        margin-left: 6px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .domain-input-tld select{
+        font-size: 0.563rem;
+        border-radius: 5px;
+        padding: 0px;
+        padding-left: 5px;
+    }
+
+    .pretrazi-btn {
+        width: 41.33px;
+        height: 15.28px;
+        font-size: 0.563rem;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    .register-domain-tld-price {
+        font-size: 0.5rem;
+    }
+
+    .register-domain-prices {
+        gap: 3px;
+        margin-top: 5px;
+        width: 233px;
+    }
+
+    #domain-input {
+        font-size: 0.563rem;
+    }
+
+    #contact {
+        height: 86px;
+    }
+
+    #contact h2 {
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+
+    #contact h3 {
+        font-size: 0.75rem;
+        margin-bottom: 0px;
+    }
+
+    #contact button {
+        height: 20.32px;
+        width: 131.35px;
+        font-size: 1rem;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    #contact p {
+        font-size: 0.5rem;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+
+    .hosting-feature-container {
+        height: 203px;
+        width: 203px;
+
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        margin-top: 21px!important;
+    }
+
+    .hosting-feature-title {
+        font-size: 0.75rem;
+        height: 48.86px;
+    }
+
+    .hosting-feature-description {
+        font-size: 0.5rem;
+        line-height: 9.68px;
+        margin-top: 15.5px;
+
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    #najkvalitetniji-hosting {
+        float: none;
+    }
+
+    #vi-ste-najvazniji {
+        float: none;
+    }
+
+    #footer {
+        height: 347px;
+    }
+}

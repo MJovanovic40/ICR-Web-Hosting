@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="/assets/img/logo.webp" alt="Logo" height="74" width="auto">
+            <img src="/assets/img/logo.webp" alt="Logo" height="74" width="auto" class="logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
       <div class="container">
         <!--Hosting info-->
         <div class="row hosting-info">
-          <div class="col-md-3">
+          <div class="col-6 col-lg-3">
             <div class="hosting-info-container" style="margin-top: 82px;">
               <div class="hosting-info-circle rounded-circle bg-primary">
                 Od RSD2400/mesčno
@@ -89,7 +89,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-6 col-lg-3 ">
             <div class="hosting-info-container">
               <div class="hosting-info-circle rounded-circle bg-primary">
                 Od RSD2500/mesčno
@@ -122,7 +122,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="d-none d-lg-block col-lg-3">
             <div class="hosting-info-container">
               <div class="hosting-info-circle rounded-circle bg-primary">
                 Od RSD1300/mesčno
@@ -155,7 +155,7 @@
             </div>
           </div>
           
-          <div class="col-md-3">
+          <div class="d-none d-lg-block col-lg-3">
             <div class="hosting-info-container" style="margin-top: 82px;">
               <div class="hosting-info-circle rounded-circle bg-primary">
                 Od RSD4000/mesčno
@@ -189,11 +189,80 @@
           </div>
 
         </div>
+
+        <div class="row" style="margin-top: 32px">
+          <div class="col-6 d-lg-none">
+            <div class="hosting-info-container">
+              <div class="hosting-info-circle rounded-circle bg-primary">
+                Od RSD1300/mesčno
+              </div>
+              <div class="hosting-info-body bg-secondary">
+                <div class="hosting-info-body-header ">
+                  <div class="hosting-info-body-header-text">VPS Server</div>
+                </div>
+                <div class="hosting-info-body-main">
+                  <div class="hosting-info-body-main-row">
+                    <box-icon type='solid' name='data' color="white" class="hosting-info-icon"></box-icon>
+                    <div>25GB <strong>SSD</strong></div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon name='chip' color="white" class="hosting-info-icon"></box-icon>
+                    <div>2 CPU Cores</div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon name='microchip' color="white" class="hosting-info-icon"></box-icon>
+                    <div>4 GB RAM</div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon type='solid' name='lock' color="white" class="hosting-info-icon"></box-icon>
+                    <div>Besplatan SSL</div>
+                  </div>
+
+                  <a class="btn btn-primary btn-saznaj-vise" href="/#">Saznaj više</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 d-lg-none">
+            <div class="hosting-info-container" style="margin-top: 82px;">
+              <div class="hosting-info-circle rounded-circle bg-primary">
+                Od RSD4000/mesčno
+              </div>
+              <div class="hosting-info-body bg-secondary">
+                <div class="hosting-info-body-header ">
+                  <div class="hosting-info-body-header-text">Dedicated server</div>
+                </div>
+                <div class="hosting-info-body-main">
+                  <div class="hosting-info-body-main-row">
+                    <box-icon type='solid' name='data' color="white" class="hosting-info-icon"></box-icon>
+                    <div>1TB <strong>SSD</strong></div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon name='chip' color="white" class="hosting-info-icon"></box-icon>
+                    <div>8 CPU Cores</div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon name='microchip' color="white" class="hosting-info-icon"></box-icon>
+                    <div>16 GB RAM</div>
+                  </div>
+                  <div class="hosting-info-body-main-row">
+                    <box-icon type='solid' name='lock' color="white" class="hosting-info-icon"></box-icon>
+                    <div>Besplatan SSL</div>
+                  </div>
+
+                  <a class="btn btn-primary btn-saznaj-vise" href="/#">Saznaj više</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!--End hosting info-->
 
         <!--Registracija domena-->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-12">
             <div class="register-domain-container bg-secondary w-full position-relative">
               <div class="register-domain-inner-container w-full position-absolute">
                 <p class="register-domain-title">Registracija domena</p>
@@ -286,7 +355,7 @@
 
       <!--Footer-->
       <footer id="footer" class="bg-secondary">
-        <div class="container">
+        <div class="container d-none d-lg-block">
           <div class="row" class="footer-content">
             <div class="col-md-4">
               <div class="d-flex flex-column">
@@ -328,6 +397,36 @@
                 CyperWebb 2011. - 2023.
               </div>
             </div>
+          </div>
+        </div>
+
+        <div class="container d-lg-none footer-content-mobile">
+          <img src="/assets/img/logo.webp" class="footer-logo" alt="Logo">
+          <p class="footer-info">
+            PIB: 01234567<br>
+            MB: 00123435<br>
+            Tel: +381601234567<br>
+            Email: office@cyperwebb.rs
+          </p>
+
+          <ul class="footer-sitemap">
+            <li><a href="/">Home</a></li>
+            <li><a href="/ponuda">Hosting</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+
+          <form class="footer-mail-form">
+            <label>Prijavite se na našu mailing listu:</label>
+            <div class="footer-mail-form-input-container bg-white d-flex">
+              <input type="email" class="form-control" id="footer-mail-input" placeholder="primer@primer.com">
+              <button type="submit" class="btn btn-primary">Pošalji</button>
+            </div>
+          </form>
+
+          <div class="d-flex gap-1 justify-content-center align-items-center mt-4 copyright">
+            <box-icon name='copyright' color="white" class="copyright-icon"></box-icon>
+            CyperWebb 2011. - 2023.
           </div>
         </div>
       </footer>
