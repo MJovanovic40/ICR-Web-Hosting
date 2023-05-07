@@ -220,7 +220,7 @@ input[type="text"]:focus {
     position: relative;
     margin-top: 68px;
 
-    background: url("/assets/img/contact-us.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/contact-us.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -341,3 +341,79 @@ input[type="text"]:focus {
 }
 
 /* End hosting features */
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 356px;
+
+    margin-top: 68px;
+
+    color: white;
+}
+
+.footer-logo {
+    width: 323px;
+    height: auto;
+    margin-top: 71px;
+}
+
+.footer-info {
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.footer-mail-form {
+    width: 100%;
+}
+
+.footer-mail-form-input-container {
+    width: 100%;
+    border-radius: 10px;
+    height: 45px;
+}
+
+#footer-mail-input {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.footer-mail-form-input-container button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input[type="email"]:focus {
+    border-color: transparent;
+    box-shadow: none;
+    outline: 0 none;
+}
+.footer-mail-form label {
+    font-weight: 400;
+    font-size: 1rem;
+
+    margin-top: 136px;
+}
+
+.footer-sitemap {
+    margin-top: 124px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+
+    list-style: none;
+}
+
+.footer-sitemap li a {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* End footer*/
