@@ -218,7 +218,7 @@ input[type="text"]:focus {
     height: 347px;
 
     position: relative;
-    top: 68px;
+    margin-top: 68px;
 
     background: url("/assets/img/contact-us.webp");
     background-position: center;
@@ -231,8 +231,6 @@ input[type="text"]:focus {
     align-items: center;
 
     color: white;
-
-    border-radius: 10px;
 }
 
 .contact-us-button {
@@ -244,6 +242,7 @@ input[type="text"]:focus {
     font-weight: 500;
 
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 #contact h2 {
@@ -262,6 +261,83 @@ input[type="text"]:focus {
     margin-top: 10px;
 }
 
-
-
 /* End contact us */
+
+/* Hosting features */
+
+.hosting-feature-container {
+    width: 536px;
+    height: 536px;
+
+    position: relative;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#prelazite-kod-nas {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/prelazite-kod-nas.webp");
+    background-size: cover;
+    background-position: center;
+    
+    margin-top: 68px;
+}
+
+#najkvalitetniji-hosting {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/najkvalitetniji-hosting.webp");
+    background-size: cover;
+    background-position: center;
+
+    float: right;
+
+    margin-top: 68px;
+}
+
+#najnize-cene {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/najnize-cene.webp");
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 98px;
+}
+
+#vi-ste-najvazniji {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/console.webp");
+    background-size: cover;
+    background-position: center;
+
+    float: right;
+
+    margin-top: 98px;
+}
+
+
+
+
+.hosting-feature-title {
+    height: 129px;
+    width:100%;
+    color: white;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hosting-feature-description {
+    padding-left: 48px;
+    padding-right: 48px;
+
+    margin-top: 40px;
+
+    text-align: justify;
+    color: white;
+
+    line-height: 30px;
+}
+
+/* End hosting features */
