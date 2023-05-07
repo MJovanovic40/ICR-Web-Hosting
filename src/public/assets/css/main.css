@@ -59,8 +59,8 @@ html, body {
     translate: -50%;
     z-index: 1;
 
-    font-weight: 900;
-    font-size: 19px;
+    font-weight: 700;
+    font-size: 1.188rem;
     color: white;
     text-align: center;
     word-break: break-all;
@@ -564,6 +564,9 @@ input[type="email"]:focus {
     text-align: justify;
 }
 
+.bh {
+    top: 11px;
+}
 
 /* End footer*/
 
@@ -875,6 +878,12 @@ input[type="email"]:focus {
     .hosting-info-container {
         width: 140px;
     }
+}
+
+.podaci {
+    font-size: 1.5rem;
+    margin-top: 83px;
+    margin-bottom: 83px;
 }
 
 
