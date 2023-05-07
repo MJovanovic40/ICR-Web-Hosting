@@ -487,6 +487,52 @@ input[type="email"]:focus {
 
 /* End footer*/
 
+@media only screen and (min-width: 996px) and (max-width: 1199px){
+    .hosting-feature-container {
+        position: relative;
+        left: 50%;
+        translate: -50%;
+
+        float: none !important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 995px) {
+    .hosting-info-container {
+        margin-top: 0px !important;
+
+        position: relative;
+        left: 50%;
+        translate: -50%;
+    }
+
+    .register-domain-inner-container {
+        width: 475px;
+    }
+
+    .register-domain-form {
+        width: 475px;
+        gap: 5px;
+    }
+
+    .domain-input-icon {
+        margin-right: 15px;
+    }
+
+    .register-domain-prices {
+        font-size: 0.745rem;
+        width: 500px;
+    }
+
+    .hosting-feature-container {
+        position: relative;
+        left: 50%;
+        translate: -50%;
+        margin-top: 21px!important;
+
+        float: none !important;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .logo {
@@ -498,6 +544,10 @@ input[type="email"]:focus {
         font-size: 1rem;
         margin-bottom: 0px;
         margin-top: 23px;
+    }
+
+    .nav-item {
+        font-size: 0.875rem;
     }
 
     .naslov-underline {
@@ -677,5 +727,20 @@ input[type="email"]:focus {
 
     #footer {
         height: 347px;
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (max-width: 333px) {
+    #contact h2 {
+        font-size: 0.75rem;
+    }
+
+    #contact h3 {
+        font-size: 0.5rem;
+    }
+
+    #contact p {
+        font-size: 0.4rem;
     }
 }
