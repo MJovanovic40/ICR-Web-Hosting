@@ -39,6 +39,13 @@ html, body {
     filter: drop-shadow(4px 8px 4px rgba(0, 0, 0, 0.25));
     max-width: 279px;
     min-width: 133px;
+
+    left: 50%;
+    translate: -50%;
+}
+
+.hosting-info-container-moved {
+    margin-top: 82px;
 }
 
 .hosting-info-circle {
@@ -485,6 +492,79 @@ input[type="email"]:focus {
 }
 
 
+
+
+
+/* Web Hosting / Business hosting */
+
+#hero {
+    width: 100%;
+    height: 347px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 79px;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    padding-left: 177px;
+    padding-right: 177px;
+    text-align: justify;
+    color: white;
+
+    margin-bottom: 0px;
+}
+
+.mini-feature {
+    width: 279px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 79px;
+
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+.mini-feature-icon-container {
+    width: 81px;
+    height: 81px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-feature-icon {
+    width: 68px;
+    height: 68px;
+}
+
+.mini-feature-title {
+    font-size: 1.188rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.mini-feature-description {
+    text-align: justify;
+}
+
+
 /* End footer*/
 
 @media only screen and (min-width: 996px) and (max-width: 1199px){
@@ -555,6 +635,10 @@ input[type="email"]:focus {
         height: 5px;
     }
 
+    .hosting-info {
+        margin-top: 0px;
+    }
+
     .hosting-info-circle {
         width: 78.5px;
         height: 78.5px;
@@ -565,14 +649,18 @@ input[type="email"]:focus {
         top: 39.25px;
     }
 
-    .hosting-info-container {
-        width: 133.5px;
-        height: 297px;
-        margin-top: 0px !important;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
+    .hosting-info-container-moved {
+        margin-top: 0px;
     }
+
+    .hosting-info-container {
+        width: 150px;
+        height: 297px;
+
+        margin-top: 23px;
+    }
+
+
     .hosting-info-body-header {
         height: 95.33px;
     }
@@ -663,6 +751,7 @@ input[type="email"]:focus {
 
     #contact {
         height: 86px;
+        margin-top: 23px;
     }
 
     #contact h2 {
@@ -729,6 +818,45 @@ input[type="email"]:focus {
         height: 347px;
         margin-top: 21px;
     }
+
+
+    /* Web Hosting / Business hosting */
+
+    #hero {
+        height: 131px;
+        margin-top: 23px;
+    }
+
+    .hero-text {
+        font-size: 0.75rem;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .mini-feature {
+        width: 125px;
+
+        margin-top: 23px;
+    }
+
+    .mini-feature-icon-container{
+        height: 47px;
+        width: 47px;
+    }
+
+    .mini-feature-icon {
+        width: 39.5px;
+        height: 39.5px;
+    }
+
+    .mini-feature-title {
+        font-size: 0.563rem;
+    }
+
+    .mini-feature-description {
+        font-size: 0.5rem;
+    }
+
 }
 
 @media only screen and (max-width: 333px) {
@@ -743,4 +871,13 @@ input[type="email"]:focus {
     #contact p {
         font-size: 0.4rem;
     }
+
+    .hosting-info-container {
+        width: 140px;
+    }
 }
+
+
+
+
+

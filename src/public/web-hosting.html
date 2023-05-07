@@ -16,38 +16,319 @@
     <title>CyperWebb - Ponuda</title>
 </head>
 <body>
+    <!-- Navbar-->
     <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/assets/img/logo.webp" alt="Logo" height="74" width="auto">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="/ponuda">Hosting</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
-              </li>
-            </ul>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo.webp" alt="Logo" height="74" width="auto" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/ponuda">Hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End navbar-->
+
+    <div class="naslov-container w-100 d-flex flex-column align-items-center">
+      <h1 class="text-center naslov">WEB HOSTING</h1>
+      <div class="naslov-underline"></div>
+    </div>
+
+    <!--Hero-->
+    <section id="hero">
+      <p class="hero-text">CPanel SSD web hosting paketi koje Vam nudimo predstavljaju optimalni odnos prostora na disku, mesečnog protoka podataka i cene. Oni Vam omogućuju da po najpovoljnijim uslovima postavite svoju web prezentaciju na našu hosting platformu i predstavite se celokupnoj internet zajednici.</p>
+    </section>
+    <!--End hero-->
+
+    <div class="container">
+      <!--Hosting info-->
+      <div class="row hosting-info">
+        <div class="col-lg-4">
+          <div class="hosting-info-container wh">
+            <div class="hosting-info-circle rounded-circle bg-primary">
+              RSD28800/godišnje
+            </div>
+            <div class="hosting-info-body bg-secondary">
+              <div class="hosting-info-body-header ">
+                <div class="hosting-info-body-header-text">Junior</div>
+              </div>
+              <div class="hosting-info-body-main">
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='data' color="white" class="hosting-info-icon"></box-icon>
+                  <div>10GB <strong>SSD</strong></div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='add-to-queue' color="white" class="hosting-info-icon"></box-icon>
+                  <div>0 Addon domena</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='desktop' color="white" class="hosting-info-icon"></box-icon>
+                  <div>CPanel</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='lock' color="white" class="hosting-info-icon"></box-icon>
+                  <div>Besplatan SSL</div>
+                </div>
+
+                <a class="btn btn-primary btn-saznaj-vise" href="/#">Poruči</a>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
 
-      <div class="naslov-container w-100 d-flex flex-column align-items-center">
-        <h1 class="text-center naslov">WEB HOSTING</h1>
-        <div class="naslov-underline"></div>
+        <div class="col-lg-4">
+          <div class="hosting-info-container wh">
+            <div class="hosting-info-circle rounded-circle bg-primary">
+              RSD31200/godišnje
+            </div>
+            <div class="hosting-info-body bg-secondary">
+              <div class="hosting-info-body-header ">
+                <div class="hosting-info-body-header-text">Medior</div>
+              </div>
+              <div class="hosting-info-body-main">
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='data' color="white" class="hosting-info-icon"></box-icon>
+                  <div>20GB <strong>SSD</strong></div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='add-to-queue' color="white" class="hosting-info-icon"></box-icon>
+                  <div>5 Addon domena</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='desktop' color="white" class="hosting-info-icon"></box-icon>
+                  <div>CPanel</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='lock' color="white" class="hosting-info-icon"></box-icon>
+                  <div>Besplatan SSL</div>
+                </div>
+
+                <a class="btn btn-primary btn-saznaj-vise" href="#">Poruči</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="hosting-info-container wh">
+            <div class="hosting-info-circle rounded-circle bg-primary">
+              RSD36000/godišnje
+            </div>
+            <div class="hosting-info-body bg-secondary">
+              <div class="hosting-info-body-header ">
+                <div class="hosting-info-body-header-text">Senior</div>
+              </div>
+              <div class="hosting-info-body-main">
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='data' color="white" class="hosting-info-icon"></box-icon>
+                  <div>40GB <strong>SSD</strong></div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='add-to-queue' color="white" class="hosting-info-icon"></box-icon>
+                  <div>15 Addon domena</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon name='desktop' color="white" class="hosting-info-icon"></box-icon>
+                  <div>CPanel</div>
+                </div>
+                <div class="hosting-info-body-main-row">
+                  <box-icon type='solid' name='lock' color="white" class="hosting-info-icon"></box-icon>
+                  <div>Besplatan SSL</div>
+                </div>
+
+                <a class="btn btn-primary btn-saznaj-vise" href="#">Poruči</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <!--End hosting info-->
+
+      <!--Registracija domena-->
+      <div class="row">
+        <div class="col-12">
+          <div class="register-domain-container bg-secondary w-full position-relative">
+            <div class="register-domain-inner-container w-full position-absolute">
+              <p class="register-domain-title">Registracija domena</p>
+              <form class="d-flex register-domain-form">
+                <div class="domain-input-field d-flex gap-0 align-items-center">
+                  <box-icon name='world' class="domain-input-icon"></box-icon>
+                  <input type="text" class="form-control" id="domain-input" placeholder="savrsenidomenzavas">
+                  <div class="domain-input-tld d-flex justify-content-center align-items-center">
+                    <!-- Ovo bi se idealno povlacilo sa servera u zavisnosti koji TLD su u ponudi-->
+                    <select class="form-select" aria-label="Default select example">
+                      <option value=".com" selected>.com</option>
+                      <option value=".rs">.rs</option>
+                      <option value=".net">.net</option>
+                      <option value=".info">.info</option>
+                      <option value=".co.rs">.co.rs</option>
+                      <option value=".in.rs">.in.rs</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary pretrazi-btn">Pretraži</button>
+              </form>
+
+              <div class="register-domain-prices d-flex">
+                <div class="register-domain-tld-price">.com:  RSD1400/godišnje</div>
+                <div class="register-domain-tld-price">.rs:  RSD2300/godišnje</div>
+                <div class="register-domain-tld-price">.co.rs:  RSD850/godišnje</div>
+                <div class="register-domain-tld-price">.net:  RSD1500/godišnje</div>
+                <div class="register-domain-tld-price">.info:  RSD1800/godišnje</div>
+                <div class="register-domain-tld-price">.in.rs:  RSD500/godišnje</div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End registracija domena-->
+      
+      <!--Hosting mini featues-->
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="mini-feature">
+            <div class="mini-feature-icon-container rounded-circle bg-primary">
+              <box-icon name='save' color="white" class="mini-feature-icon" ></box-icon>
+            </div>
+            <h3 class="mini-feature-title">Dnevni backup podataka</h3>
+            <p class="mini-feature-description">
+              Dnevni backup je ključni aspekt sigurnosti Vaše web stranice. Iako se trudite da sačuvate sve važne datoteke i podatke, neočekivani događaji se mogu dogoditi u bilo kom trenutku.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mini-feature">
+            <div class="mini-feature-icon-container rounded-circle bg-primary">
+              <box-icon name='cloud-lightning' type="solid" color="white" class="mini-feature-icon" ></box-icon>
+            </div>
+            <h3 class="mini-feature-title">Neograničen saobraćaj</h3>
+            <p class="mini-feature-description">
+              Naša usluga web hostinga uključuje neograničen saobraćaj, što znači da možete očekivati visoku brzinu učitavanja stranica i dobru stabilnost web stranice, bez obzira na broj posetioca.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="mini-feature">
+            <div class="mini-feature-icon-container rounded-circle bg-primary">
+              <box-icon name='desktop' color="white" class="mini-feature-icon" ></box-icon>
+            </div>
+            <h3 class="mini-feature-title">CPanel</h3>
+            <p class="mini-feature-description">
+              Naša usluga web hostinga uključuje Cpanel kao standardnu opciju za upravljanje Vašom web stranicom. Cpanel je jednostavan za korištenje i omogućava Vam brz i jednostavan pristup Vašoj web stranici.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--End hosting mini features-->
+    </div>
+
+    <!--Contact us-->
+    <section id="contact">
+      <h2>IMATE DILEMU ILI PITANJE PRE KUPOVINE?</h2>
+      <h3>Kontaktirajte sa našim timom stručnjaka</h3>
+      <button type="button" class="btn btn-primary contact-us-button">Pozovite nas</button>
+      <p>Ponedeljak - petak 09-17h</p>
+    </section>
+    <!--End contact us-->
+
+    <!--Footer-->
+    <footer id="footer" class="bg-secondary">
+      <div class="container d-none d-lg-block">
+        <div class="row" class="footer-content">
+          <div class="col-md-4">
+            <div class="d-flex flex-column">
+              <img src="/assets/img/logo.webp" class="footer-logo" alt="Logo">
+              <p class="footer-info">
+                PIB: 01234567<br>
+                MB: 00123435<br>
+                Tel: +381601234567<br>
+                Email: office@cyperwebb.rs
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <form class="footer-mail-form">
+              <label>Prijavite se na našu mailing listu:</label>
+              <div class="footer-mail-form-input-container bg-white d-flex">
+                <input type="email" class="form-control" id="footer-mail-input" placeholder="primer@primer.com">
+                <button type="submit" class="btn btn-primary">Pošalji</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-1"></div>
+          <div class="col-md-1">
+            <ul class="footer-sitemap">
+              <li><a href="/">Home</a></li>
+              <li><a href="/ponuda">Hosting</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex gap-1 justify-content-center align-items-center mt-2">
+              <box-icon name='copyright' color="white"></box-icon>
+              CyperWebb 2011. - 2023.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-lg-none footer-content-mobile">
+        <img src="/assets/img/logo.webp" class="footer-logo" alt="Logo">
+        <p class="footer-info">
+          PIB: 01234567<br>
+          MB: 00123435<br>
+          Tel: +381601234567<br>
+          Email: office@cyperwebb.rs
+        </p>
+
+        <ul class="footer-sitemap">
+          <li><a href="/">Home</a></li>
+          <li><a href="/ponuda">Hosting</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+
+        <form class="footer-mail-form">
+          <label>Prijavite se na našu mailing listu:</label>
+          <div class="footer-mail-form-input-container bg-white d-flex">
+            <input type="email" class="form-control" id="footer-mail-input" placeholder="primer@primer.com">
+            <button type="submit" class="btn btn-primary">Pošalji</button>
+          </div>
+        </form>
+
+        <div class="d-flex gap-1 justify-content-center align-items-center mt-4 copyright">
+          <box-icon name='copyright' color="white" class="copyright-icon"></box-icon>
+          CyperWebb 2011. - 2023.
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
