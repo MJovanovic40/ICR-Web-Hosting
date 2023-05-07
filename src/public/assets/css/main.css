@@ -256,7 +256,7 @@ input[type="text"]:focus {
     position: relative;
     margin-top: 68px;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/contact-us.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/img/contact-us.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -313,7 +313,7 @@ input[type="text"]:focus {
 }
 
 #prelazite-kod-nas {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/prelazite-kod-nas.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/img/prelazite-kod-nas.webp");
     background-size: cover;
     background-position: center;
     
@@ -321,7 +321,7 @@ input[type="text"]:focus {
 }
 
 #najkvalitetniji-hosting {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/najkvalitetniji-hosting.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/img/najkvalitetniji-hosting.webp");
     background-size: cover;
     background-position: center;
 
@@ -331,7 +331,7 @@ input[type="text"]:focus {
 }
 
 #najnize-cene {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/najnize-cene.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/img/najnize-cene.webp");
     background-size: cover;
     background-position: center;
 
@@ -339,7 +339,7 @@ input[type="text"]:focus {
 }
 
 #vi-ste-najvazniji {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/console.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/img/console.webp");
     background-size: cover;
     background-position: center;
 
@@ -534,7 +534,7 @@ input[type="email"]:focus {
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero.webp");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/hero.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
