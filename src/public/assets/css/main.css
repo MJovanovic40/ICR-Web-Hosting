@@ -912,6 +912,11 @@ input[type="email"]:focus {
     .hosting-info-container {
         width: 140px;
     }
+
+    .back-to-top {
+        height: 30px;
+        width: 30px;
+    }
 }
 
 .podaci {
